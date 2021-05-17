@@ -1,0 +1,34 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "UdagramProject"
+	},
+    {
+		"ParameterKey": "InstanceType",
+		"ParameterValue": "t2.micro"
+	},
+    {
+        "ParameterKey": "S3CodeRepo",
+        "ParameterValue": "s3://my-880715153982-bucket/udacity.zip"
+    },
+	{
+        "ParameterKey": "WebAppServersMinSize",
+        "ParameterValue": "2"
+    },
+	{
+        "ParameterKey": "WebAppServersMaxSize",
+        "ParameterValue": "4"
+    },
+	{
+    	"ParameterKey": "BastionHostSSHKeyName",
+    	"ParameterValue": "jumpbox-key"
+	},
+	{
+    	"ParameterKey": "BastionHostToPrivateServerSSHKeyName",
+    	"ParameterValue": "private-server-devops-key"
+	},
+	{
+		"ParameterKey": "NetworkAccessIP",
+		"ParameterValue" : "91.66.142.29/32"
+	}
+]
